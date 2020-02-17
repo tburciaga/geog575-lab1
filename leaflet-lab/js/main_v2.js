@@ -31,7 +31,7 @@ function getData(map){
             
             //call function to create symbols and sequence controls
             createPropSymbols(response, map, attributes);
-            createSequenceControls(response, map, attributes);
+            createSequenceControls(map, attributes);
         }
     });
 };
@@ -46,13 +46,13 @@ function processData(data){
 
     //push each attribute name into attributes array
     for (var attribute in properties){
-        //only take attributes with rank values
+        //only take attributes with a rank value
         if (attribute.indexOf("Rank") > -1){
             attributes.push(attribute);
         };
     };
 
-    //check result
+    // //check result
     // console.log("Current attribute:" + attributes);
 
     return attributes;
@@ -97,6 +97,7 @@ function calcPropRadius(attValue) {
 //convert markers to circle markers
 function pointToLayer(feature, latlng, attributes){
     //assign the current attribute based on the first index of the attributes array
+    //*** THIS MAY NEED TO CHANGE. IT OBVIOUSLY NEEDS TO INCREMENT
     var attribute = attributes[0];
     
     //check result
@@ -179,20 +180,21 @@ function createSequenceControls(map, attributes){
     $('#reverse').html('<img src="img/reverse.png">');
     $('#forward').html('<img src="img/forward.png">');
 
-    //click listener for buttons
-    $('.skip').click(function(){
-        //sequence *** MAY BE A PROBLEM HERE
-    })
-
-    // //input listener for slider
-    // $('.range-slider').on('input', function(){
-    //     //sequence
-    // })
+    // //click listener for buttons
+    // $('.skip').click(function(){
+    //     //sequence *** MAY BE A PROBLEM HERE
+    // });
 
     //input listener for slider
     $('.range-slider').on('input', function(){
-        //sequence *** MAY BE A PROBLEM HERE
+        //get the new index value. 
+        //$this = retrieves changed value; 
+        //.val() = retrieves sliders current value
         var index = $(this).val();
+
+        //pass new attribute index to update symbols
+        updatePropSymbols(map, attributes[index]);
+
     });
 
     //click listener for buttons
@@ -213,34 +215,39 @@ function createSequenceControls(map, attributes){
 
         //update slider
         $('.range-slider').val(index);
+        
+        //pass new attribute index to update symbols
+        updatePropSymbols(map, attributes[index]);
+
     });
 };
 
 //pass new attribute to update symbols-called in skip button and slider event listeners
 function updatePropSymbols(map, attribute){
+    
+    //update the layer style and popup
     map.eachLayer(function(layer){
         
-        //update the layer style and popup
         if (layer.feature && layer.feature.properties[attribute]){
-
-        //access feature properties
-        var props = layer.feature.properties;
-
-        //update each feature's radius based on new attribute values
-        var radius = calcPropRadius(props[attribute]);
-        layer.setRadius(radius);
-
-        //add city to popup content string
-        var popupContent = "<p><b>City:</b> " + props.City + "</p>";
-
-        //add formatted attribute to panel content string
-        var year = attribute.split(" ")[1];
-        popupContent += "<p><b>Rank in " + year + ":</b> " + props[attribute] + "</p>";
-
-        //replace the layer popup
-        layer.bindPopup(popupContent, {
-            offset: newL.Point(0,-radius)
-        });
+            
+            //access feature properties
+            var props = layer.feature.properties;
+            
+            //update each feature's radius based on new attribute values
+            var radius = calcPropRadius(props[attribute]);
+            layer.setRadius(radius);
+            
+            //add city to popup content string
+            var popupContent = "<p><b>City:</b> " + props.City + ", " + props.State + "</p>";
+            
+            //add formatted attribute to popup content string
+            var year = attribute.split(" ")[0];
+            popupContent += "<b>" + year + " Rank: " + "</b> " + props[attribute] + "</p>";
+            
+            //replace the layer popup
+            layer.bindPopup(popupContent, {
+                offset: new L.Point(0,-radius)
+            });
         };
     });
 };
