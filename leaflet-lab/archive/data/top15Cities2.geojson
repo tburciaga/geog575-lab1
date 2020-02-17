@@ -1,0 +1,1105 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.075798,33.4482498 ]
+    },
+    "properties": {
+    "City":"Phoenix",
+    "State":"AZ",
+    "Full Name":"Phoenix, AZ",
+    "bing-City":"Phoenix",
+    "bing-State":"AZ",
+    "bing-Longitude":-112.075798,
+    "bing-Latitude":33.4482498,
+    "bing-name":"Phoenix, AZ",
+    "bing-desc":"Phoenix, AZ",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.2453232,34.0534897 ]
+    },
+    "properties": {
+    "City":"Los Angeles",
+    "State":"CA",
+    "Full Name":"Los Angeles, CA",
+    "bing-City":"Los Angeles",
+    "bing-State":"CA",
+    "bing-Longitude":-118.2453232,
+    "bing-Latitude":34.0534897,
+    "bing-name":"Los Angeles, CA",
+    "bing-desc":"Los Angeles, CA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1617126,32.7156792 ]
+    },
+    "properties": {
+    "City":"San Diego",
+    "State":"CA",
+    "Full Name":"San Diego, CA",
+    "bing-City":"San Diego",
+    "bing-State":"CA",
+    "bing-Longitude":-117.1617126,
+    "bing-Latitude":32.7156792,
+    "bing-name":"San Diego, CA",
+    "bing-desc":"San Diego, CA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4196396,37.7771187 ]
+    },
+    "properties": {
+    "City":"San Francisco",
+    "State":"CA",
+    "Full Name":"San Francisco, CA",
+    "bing-City":"San Francisco",
+    "bing-State":"CA",
+    "bing-Longitude":-122.4196396,
+    "bing-Latitude":37.7771187,
+    "bing-name":"San Francisco, CA",
+    "bing-desc":"San Francisco, CA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.8854218,37.3386497 ]
+    },
+    "properties": {
+    "City":"San Jose",
+    "State":"CA",
+    "Full Name":"San Jose, CA",
+    "bing-City":"San Jose",
+    "bing-State":"CA",
+    "bing-Longitude":-121.8854218,
+    "bing-Latitude":37.3386497,
+    "bing-name":"San Jose, CA",
+    "bing-desc":"San Jose, CA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0319595,38.8903694 ]
+    },
+    "properties": {
+    "City":"Washington",
+    "State":"DC",
+    "Full Name":"Washington, DC",
+    "bing-City":"Washington",
+    "bing-State":"DC",
+    "bing-Longitude":-77.0319595,
+    "bing-Latitude":38.8903694,
+    "bing-name":"Washington, DC",
+    "bing-desc":"Washington, DC",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.6562195,30.3314705 ]
+    },
+    "properties": {
+    "City":"Jacksonville",
+    "State":"FL",
+    "Full Name":"Jacksonville, FL",
+    "bing-City":"Jacksonville",
+    "bing-State":"FL",
+    "bing-Longitude":-81.6562195,
+    "bing-Latitude":30.3314705,
+    "bing-name":"Jacksonville, FL",
+    "bing-desc":"Jacksonville, FL",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.9875717,32.4628792 ]
+    },
+    "properties": {
+    "City":"Columbus",
+    "State":"GA",
+    "Full Name":"Columbus, GA",
+    "bing-City":"Columbus",
+    "bing-State":"GA",
+    "bing-Longitude":-84.9875717,
+    "bing-Latitude":32.4628792,
+    "bing-name":"Columbus, GA",
+    "bing-desc":"Columbus, GA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.6324463,41.8842506 ]
+    },
+    "properties": {
+    "City":"Chicago",
+    "State":"IL",
+    "Full Name":"Chicago, IL",
+    "bing-City":"Chicago",
+    "bing-State":"IL",
+    "bing-Longitude":-87.6324463,
+    "bing-Latitude":41.8842506,
+    "bing-name":"Chicago, IL",
+    "bing-desc":"Chicago, IL",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.1499634,39.7669106 ]
+    },
+    "properties": {
+    "City":"Indianapolis",
+    "State":"IN",
+    "Full Name":"Indianapolis, IN",
+    "bing-City":"Indianapolis",
+    "bing-State":"IN",
+    "bing-Longitude":-86.1499634,
+    "bing-Latitude":39.7669106,
+    "bing-name":"Indianapolis, IN",
+    "bing-desc":"Indianapolis, IN",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.7666626,38.2548904 ]
+    },
+    "properties": {
+    "City":"Louisville",
+    "State":"KY",
+    "Full Name":"Louisville, KY",
+    "bing-City":"Louisville",
+    "bing-State":"KY",
+    "bing-Longitude":-85.7666626,
+    "bing-Latitude":38.2548904,
+    "bing-name":"Louisville, KY",
+    "bing-desc":"Louisville, KY",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.0777512,29.9536991 ]
+    },
+    "properties": {
+    "City":"New Orleans",
+    "State":"LA",
+    "Full Name":"New Orleans, LA",
+    "bing-City":"New Orleans",
+    "bing-State":"LA",
+    "bing-Longitude":-90.0777512,
+    "bing-Latitude":29.9536991,
+    "bing-name":"New Orleans, LA",
+    "bing-desc":"New Orleans, LA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.2566833,43.6591492 ]
+    },
+    "properties": {
+    "City":"Portland",
+    "State":"ME",
+    "Full Name":"Portland, ME",
+    "bing-City":"Portland",
+    "bing-State":"ME",
+    "bing-Longitude":-70.2566833,
+    "bing-Latitude":43.6591492,
+    "bing-name":"Portland, ME",
+    "bing-desc":"Portland, ME",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.6092606,39.2905807 ]
+    },
+    "properties": {
+    "City":"Baltimore",
+    "State":"MD",
+    "Full Name":"Baltimore, MD",
+    "bing-City":"Baltimore",
+    "bing-State":"MD",
+    "bing-Longitude":-76.6092606,
+    "bing-Latitude":39.2905807,
+    "bing-name":"Baltimore, MD",
+    "bing-desc":"Baltimore, MD",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0567398,42.3586617 ]
+    },
+    "properties": {
+    "City":"Boston",
+    "State":"MA",
+    "Full Name":"Boston, MA",
+    "bing-City":"Boston",
+    "bing-State":"MA",
+    "bing-Longitude":-71.0567398,
+    "bing-Latitude":42.3586617,
+    "bing-name":"Boston, MA",
+    "bing-desc":"Boston, MA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.6681137,42.6143494 ]
+    },
+    "properties": {
+    "City":"Gloucester",
+    "State":"MA",
+    "Full Name":"Gloucester, MA",
+    "bing-City":"Gloucester",
+    "bing-State":"MA",
+    "bing-Longitude":-70.6681137,
+    "bing-Latitude":42.6143494,
+    "bing-name":"Gloucester, MA",
+    "bing-desc":"Gloucester, MA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.8614273,42.4973297 ]
+    },
+    "properties": {
+    "City":"Marblehead",
+    "State":"MA",
+    "Full Name":"Marblehead, MA",
+    "bing-City":"Marblehead",
+    "bing-State":"MA",
+    "bing-Longitude":-70.8614273,
+    "bing-Latitude":42.4973297,
+    "bing-name":"Marblehead, MA",
+    "bing-desc":"Marblehead, MA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.5661926,42.1561852 ]
+    },
+    "properties": {
+    "City":"Nantucket",
+    "State":"MA",
+    "Full Name":"Nantucket, MA",
+    "bing-City":"Nantucket",
+    "bing-State":"MA",
+    "bing-Longitude":-70.098053,
+    "bing-Latitude":41.283597,
+    "bing-name":"Nantucket, MA",
+    "bing-desc":"Massachusetts",
+    "bing-color":"",
+    "bing-source":"Google Maps",
+    "bing-precision":"Neighborhood",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.8726273,42.8119698 ]
+    },
+    "properties": {
+    "City":"Newburyport",
+    "State":"MA",
+    "Full Name":"Newburyport, MA",
+    "bing-City":"Newburyport",
+    "bing-State":"MA",
+    "bing-Longitude":-70.8726273,
+    "bing-Latitude":42.8119698,
+    "bing-name":"Newburyport, MA",
+    "bing-desc":"Newburyport, MA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.895813,42.5223999 ]
+    },
+    "properties": {
+    "City":"Salem",
+    "State":"MA",
+    "Full Name":"Salem, MA",
+    "bing-City":"Salem",
+    "bing-State":"MA",
+    "bing-Longitude":-70.895813,
+    "bing-Latitude":42.5223999,
+    "bing-name":"Salem, MA",
+    "bing-desc":"Salem, MA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.0479965,42.3316803 ]
+    },
+    "properties": {
+    "City":"Detroit",
+    "State":"MI",
+    "Full Name":"Detroit, MI",
+    "bing-City":"Detroit",
+    "bing-State":"MI",
+    "bing-Longitude":-83.0479965,
+    "bing-Latitude":42.3316803,
+    "bing-name":"Detroit, MI",
+    "bing-desc":"Detroit, MI",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.2649384,44.9790192 ]
+    },
+    "properties": {
+    "City":"Minneapolis",
+    "State":"MN",
+    "Full Name":"Minneapolis, MN",
+    "bing-City":"Minneapolis",
+    "bing-State":"MN",
+    "bing-Longitude":-93.2649384,
+    "bing-Latitude":44.9790192,
+    "bing-name":"Minneapolis, MN",
+    "bing-desc":"Minneapolis, MN",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.1995621,38.6277504 ]
+    },
+    "properties": {
+    "City":"St. Louis",
+    "State":"MO",
+    "Full Name":"St. Louis, MO",
+    "bing-City":"St. Louis",
+    "bing-State":"MO",
+    "bing-Longitude":-90.1995621,
+    "bing-Latitude":38.6277504,
+    "bing-name":"St. Louis, MO",
+    "bing-desc":"St Louis, MO",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.772171,43.0706596 ]
+    },
+    "properties": {
+    "City":"Portsmouth",
+    "State":"NH",
+    "Full Name":"Portsmouth, NH",
+    "bing-City":"Portsmouth",
+    "bing-State":"NH",
+    "bing-Longitude":-70.772171,
+    "bing-Latitude":43.0706596,
+    "bing-name":"Portsmouth, NH",
+    "bing-desc":"Portsmouth, NH",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.1742096,40.7319717 ]
+    },
+    "properties": {
+    "City":"Newark",
+    "State":"NJ",
+    "Full Name":"Newark, NJ",
+    "bing-City":"Newark",
+    "bing-State":"NJ",
+    "bing-Longitude":-74.1742096,
+    "bing-Latitude":40.7319717,
+    "bing-name":"Newark, NJ",
+    "bing-desc":"Newark, NJ",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.7552109,42.6515503 ]
+    },
+    "properties": {
+    "City":"Albany",
+    "State":"NY",
+    "Full Name":"Albany, NY",
+    "bing-City":"Albany",
+    "bing-State":"NY",
+    "bing-Longitude":-73.7552109,
+    "bing-Latitude":42.6515503,
+    "bing-name":"Albany, NY",
+    "bing-desc":"Albany, NY",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9903564,40.6924515 ]
+    },
+    "properties": {
+    "City":"Brooklyn",
+    "State":"NY",
+    "Full Name":"Brooklyn, NY",
+    "bing-City":"Brooklyn",
+    "bing-State":"NY",
+    "bing-Longitude":-73.9903564,
+    "bing-Latitude":40.6924515,
+    "bing-name":"Brooklyn, NY",
+    "bing-desc":"Brooklyn, NY",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.8784637,42.8854408 ]
+    },
+    "properties": {
+    "City":"Buffalo",
+    "State":"NY",
+    "Full Name":"Buffalo, NY",
+    "bing-City":"Buffalo",
+    "bing-State":"NY",
+    "bing-Longitude":-78.8784637,
+    "bing-Latitude":42.8854408,
+    "bing-name":"Buffalo, NY",
+    "bing-desc":"Buffalo, NY",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.0071411,40.71455 ]
+    },
+    "properties": {
+    "City":"New York",
+    "State":"NY",
+    "Full Name":"New York, NY",
+    "bing-City":"New York",
+    "bing-State":"NY",
+    "bing-Longitude":-74.0071411,
+    "bing-Latitude":40.71455,
+    "bing-name":"New York, NY",
+    "bing-desc":"New York, NY",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.5041275,39.1071281 ]
+    },
+    "properties": {
+    "City":"Cincinnati",
+    "State":"OH",
+    "Full Name":"Cincinnati, OH",
+    "bing-City":"Cincinnati",
+    "bing-State":"OH",
+    "bing-Longitude":-84.5041275,
+    "bing-Latitude":39.1071281,
+    "bing-name":"Cincinnati, OH",
+    "bing-desc":"Cincinnati, OH",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.6907425,41.5047302 ]
+    },
+    "properties": {
+    "City":"Cleveland",
+    "State":"OH",
+    "Full Name":"Cleveland, OH",
+    "bing-City":"Cleveland",
+    "bing-State":"OH",
+    "bing-Longitude":-81.6907425,
+    "bing-Latitude":41.5047302,
+    "bing-name":"Cleveland, OH",
+    "bing-desc":"Cleveland, OH",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.0027466,39.9619904 ]
+    },
+    "properties": {
+    "City":"Columbus",
+    "State":"OH",
+    "Full Name":"Columbus, OH",
+    "bing-City":"Columbus",
+    "bing-State":"OH",
+    "bing-Longitude":-83.0027466,
+    "bing-Latitude":39.9619904,
+    "bing-name":"Columbus, OH",
+    "bing-desc":"Columbus, OH",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.131897,39.9862518 ]
+    },
+    "properties": {
+    "City":"Kensington",
+    "State":"PA",
+    "Full Name":"Kensington, PA",
+    "bing-City":"Kensington",
+    "bing-State":"PA",
+    "bing-Longitude":-75.131897,
+    "bing-Latitude":39.9862518,
+    "bing-name":"Kensington, PA",
+    "bing-desc":"Kensington, PA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"Neighborhood",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.1415024,39.9659615 ]
+    },
+    "properties": {
+    "City":"Northern Liberties",
+    "State":"PA",
+    "Full Name":"Northern Liberties, PA",
+    "bing-City":"Northern Liberties",
+    "bing-State":"PA",
+    "bing-Longitude":-75.1415024,
+    "bing-Latitude":39.9659615,
+    "bing-name":"Northern Liberties, PA",
+    "bing-desc":"Northern Liberties, PA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"Neighborhood",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.162178,39.9522209 ]
+    },
+    "properties": {
+    "City":"Philadelphia",
+    "State":"PA",
+    "Full Name":"Philadelphia, PA",
+    "bing-City":"Philadelphia",
+    "bing-State":"PA",
+    "bing-Longitude":-75.162178,
+    "bing-Latitude":39.9522209,
+    "bing-name":"Philadelphia, PA",
+    "bing-desc":"Philadelphia, PA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9973373,40.4385109 ]
+    },
+    "properties": {
+    "City":"Pittsburgh",
+    "State":"PA",
+    "Full Name":"Pittsburgh, PA",
+    "bing-City":"Pittsburgh",
+    "bing-State":"PA",
+    "bing-Longitude":-79.9973373,
+    "bing-Latitude":40.4385109,
+    "bing-name":"Pittsburgh, PA",
+    "bing-desc":"Pittsburgh, PA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.8387527,40.8965111 ]
+    },
+    "properties": {
+    "City":"Southwark",
+    "State":"PA",
+    "Full Name":"Southwark, PA",
+    "bing-City":"Southwark",
+    "bing-State":"PA",
+    "bing-Longitude":-75.147514,
+    "bing-Latitude":39.938363,
+    "bing-name":"Southwark, PA",
+    "bing-desc":"Pennsylvania",
+    "bing-color":"",
+    "bing-source":"Google Maps",
+    "bing-precision":"Neighborhood",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.6953354,39.9402351 ]
+    },
+    "properties": {
+    "City":"Spring Garden",
+    "State":"PA",
+    "Full Name":"Spring Garden, PA",
+    "bing-City":"Spring Garden",
+    "bing-State":"PA",
+    "bing-Longitude":-76.6953354,
+    "bing-Latitude":39.9402351,
+    "bing-name":"Spring Garden, PA",
+    "bing-desc":"Spring Garden, PA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.3112411,41.4922409 ]
+    },
+    "properties": {
+    "City":"Newport",
+    "State":"RI",
+    "Full Name":"Newport, RI",
+    "bing-City":"Newport",
+    "bing-State":"RI",
+    "bing-Longitude":-71.3112411,
+    "bing-Latitude":41.4922409,
+    "bing-name":"Newport, RI",
+    "bing-desc":"Newport, RI",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.4119873,41.8238716 ]
+    },
+    "properties": {
+    "City":"Providence",
+    "State":"RI",
+    "Full Name":"Providence, RI",
+    "bing-City":"Providence",
+    "bing-State":"RI",
+    "bing-Longitude":-71.4119873,
+    "bing-Latitude":41.8238716,
+    "bing-name":"Providence, RI",
+    "bing-desc":"Providence, RI",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.9316025,32.7811508 ]
+    },
+    "properties": {
+    "City":"Charleston",
+    "State":"SC",
+    "Full Name":"Charleston, SC",
+    "bing-City":"Charleston",
+    "bing-State":"SC",
+    "bing-Longitude":-79.9316025,
+    "bing-Latitude":32.7811508,
+    "bing-name":"Charleston, SC",
+    "bing-desc":"Charleston, SC",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.0492477,35.1497612 ]
+    },
+    "properties": {
+    "City":"Memphis",
+    "State":"TN",
+    "Full Name":"Memphis, TN",
+    "bing-City":"Memphis",
+    "bing-State":"TN",
+    "bing-Longitude":-90.0492477,
+    "bing-Latitude":35.1497612,
+    "bing-name":"Memphis, TN",
+    "bing-desc":"Memphis, TN",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.7429886,30.2675896 ]
+    },
+    "properties": {
+    "City":"Austin",
+    "State":"TX",
+    "Full Name":"Austin, TX",
+    "bing-City":"Austin",
+    "bing-State":"TX",
+    "bing-Longitude":-97.7429886,
+    "bing-Latitude":30.2675896,
+    "bing-name":"Austin, TX",
+    "bing-desc":"Austin, TX",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7954025,32.7781487 ]
+    },
+    "properties": {
+    "City":"Dallas",
+    "State":"TX",
+    "Full Name":"Dallas, TX",
+    "bing-City":"Dallas",
+    "bing-State":"TX",
+    "bing-Longitude":-96.7954025,
+    "bing-Latitude":32.7781487,
+    "bing-name":"Dallas, TX",
+    "bing-desc":"Dallas, TX",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.3308563,32.7509499 ]
+    },
+    "properties": {
+    "City":"Fort Worth",
+    "State":"TX",
+    "Full Name":"Fort Worth, TX",
+    "bing-City":"Fort Worth",
+    "bing-State":"TX",
+    "bing-Longitude":-97.3308563,
+    "bing-Latitude":32.7509499,
+    "bing-name":"Fort Worth, TX",
+    "bing-desc":"Fort Worth, TX",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.3696823,29.7605801 ]
+    },
+    "properties": {
+    "City":"Houston",
+    "State":"TX",
+    "Full Name":"Houston, TX",
+    "bing-City":"Houston",
+    "bing-State":"TX",
+    "bing-Longitude":-95.3696823,
+    "bing-Latitude":29.7605801,
+    "bing-name":"Houston, TX",
+    "bing-desc":"Houston, TX",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.4946136,29.4245796 ]
+    },
+    "properties": {
+    "City":"San Antonio",
+    "State":"TX",
+    "Full Name":"San Antonio, TX",
+    "bing-City":"San Antonio",
+    "bing-State":"TX",
+    "bing-Longitude":-98.4946136,
+    "bing-Latitude":29.4245796,
+    "bing-name":"San Antonio, TX",
+    "bing-desc":"San Antonio, TX",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.285141,36.846859 ]
+    },
+    "properties": {
+    "City":"Norfolk",
+    "State":"VA",
+    "Full Name":"Norfolk, VA",
+    "bing-City":"Norfolk",
+    "bing-State":"VA",
+    "bing-Longitude":-76.285141,
+    "bing-Latitude":36.846859,
+    "bing-name":"Norfolk, VA",
+    "bing-desc":"Norfolk, VA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.4336472,37.540699 ]
+    },
+    "properties": {
+    "City":"Richmond",
+    "State":"VA",
+    "Full Name":"Richmond, VA",
+    "bing-City":"Richmond",
+    "bing-State":"VA",
+    "bing-Longitude":-77.4336472,
+    "bing-Latitude":37.540699,
+    "bing-name":"Richmond, VA",
+    "bing-desc":"Richmond, VA",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.906868,43.0419998 ]
+    },
+    "properties": {
+    "City":"Milwaukee",
+    "State":"WI",
+    "Full Name":"Milwaukee, WI",
+    "bing-City":"Milwaukee",
+    "bing-State":"WI",
+    "bing-Longitude":-87.906868,
+    "bing-Latitude":43.0419998,
+    "bing-name":"Milwaukee, WI",
+    "bing-desc":"Milwaukee, WI",
+    "bing-color":"",
+    "bing-source":"Bing Maps",
+    "bing-precision":"city/town",
+    "TOP 15":"TRUE"
+    }
+  }
+]
+}

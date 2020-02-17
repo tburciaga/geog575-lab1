@@ -1,0 +1,317 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.18667,39.27500 ]
+    },
+    "properties": {
+    "US Census":1790,
+    "County":"Kent County, Maryland",
+    "Location description":"23 miles east of Baltimore",
+    "Coordinates":"39.27500, -76.18667"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.94167,39.26833 ]
+    },
+    "properties": {
+    "US Census":1800,
+    "County":"Howard County, Maryland",
+    "Location description":"18 miles west of Baltimore",
+    "Coordinates":"39.26833, -76.94167"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.62000,39.19167 ]
+    },
+    "properties": {
+    "US Census":1810,
+    "County":"Loudoun County, Virginia",
+    "Location description":"40 miles northwest by west of Washington, D.C.",
+    "Coordinates":"39.19167, -77.62000"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.55000,39.09500 ]
+    },
+    "properties": {
+    "US Census":1820,
+    "County":"Hardy County, West Virginia",
+    "Location description":"16 miles east of Moorefield",
+    "Coordinates":"39.09500, -78.55000"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.28167,38.96500 ]
+    },
+    "properties": {
+    "US Census":1830,
+    "County":"Grant County, West Virginia",
+    "Location description":"19 miles west-southwest of Moorefield",
+    "Coordinates":"38.96500, -79.28167"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.30000,39.03333 ]
+    },
+    "properties": {
+    "US Census":1840,
+    "County":"Upshur County, West Virginia",
+    "Location description":"16 miles south of Clarksburg",
+    "Coordinates":"39.03333, -80.30000"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.31667,38.98333 ]
+    },
+    "properties": {
+    "US Census":1850,
+    "County":"Wirt County, West Virginia",
+    "Location description":"23 miles southeast of Parkersburg",
+    "Coordinates":"38.98333, -81.31667"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.81333,39.00667 ]
+    },
+    "properties": {
+    "US Census":1860,
+    "County":"Pike County, Ohio",
+    "Location description":"20 miles south by east of Chillicothe",
+    "Coordinates":"39.00667, -82.81333"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.59500,39.20000 ]
+    },
+    "properties": {
+    "US Census":1870,
+    "County":"Highland County, Ohio",
+    "Location description":"48 miles east by north of Cincinnati",
+    "Coordinates":"39.20000, -83.59500"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.66111,39.06889 ]
+    },
+    "properties": {
+    "US Census":1880,
+    "County":"Boone County, Kentucky",
+    "Location description":"8 miles west by south of Cincinnati",
+    "Coordinates":"39.06889, -84.66111"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.54806,39.19889 ]
+    },
+    "properties": {
+    "US Census":1890,
+    "County":"Decatur County, Indiana",
+    "Location description":"20 miles east of Columbus",
+    "Coordinates":"39.19889, -85.54806"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.81500,39.16000 ]
+    },
+    "properties": {
+    "US Census":1900,
+    "County":"Bartholomew County, Indiana",
+    "Location description":"6 miles southeast of Columbus",
+    "Coordinates":"39.16000, -85.81500"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.53889,39.17000 ]
+    },
+    "properties": {
+    "US Census":1910,
+    "County":"Monroe County, Indiana",
+    "Location description":"in the city of Bloomington",
+    "Coordinates":"39.17000, -86.53889"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.72083,39.17250 ]
+    },
+    "properties": {
+    "US Census":1920,
+    "County":"Owen County, Indiana",
+    "Location description":"8 miles south-southeast of Spencer",
+    "Coordinates":"39.17250, -86.72083"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.13500,39.06250 ]
+    },
+    "properties": {
+    "US Census":1930,
+    "County":"Greene County, Indiana",
+    "Location description":"3 miles northeast of Linton",
+    "Coordinates":"39.06250, -87.13500"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.37639,38.94833 ]
+    },
+    "properties": {
+    "US Census":1940,
+    "County":"Sullivan County, Indiana",
+    "Location description":"2 miles southeast by east of Carlisle",
+    "Coordinates":"38.94833, -87.37639"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.36889,38.80417 ]
+    },
+    "properties": {
+    "US Census":1950,
+    "County":"Clay County, Illinois",
+    "Location description":"3 miles northeast of Louisville",
+    "Coordinates":"38.80417, -88.36889"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.20972,38.59944 ]
+    },
+    "properties": {
+    "US Census":1960,
+    "County":"Clinton County, Illinois",
+    "Location description":"6.5 miles northwest of Centralia",
+    "Coordinates":"38.59944, -89.20972"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.70611,38.46306 ]
+    },
+    "properties": {
+    "US Census":1970,
+    "County":"St. Clair County, Illinois",
+    "Location description":"5 miles east-southeast of Mascoutah",
+    "Coordinates":"38.46306, -89.70611"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.57389,38.13694 ]
+    },
+    "properties": {
+    "US Census":1980,
+    "County":"Jefferson County, Missouri",
+    "Location description":"0.3 mile west of DeSoto",
+    "Coordinates":"38.13694, -90.57389"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.21528,37.87222 ]
+    },
+    "properties": {
+    "US Census":1990,
+    "County":"Crawford County, Missouri",
+    "Location description":"9.7 miles southeast of Steelville",
+    "Coordinates":"37.87222, -91.21528"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.80956,37.69698 ]
+    },
+    "properties": {
+    "US Census":2000,
+    "County":"Phelps County, Missouri",
+    "Location description":"2.8 miles east of Edgar Springs",
+    "Coordinates":"37.696987, -91.80956"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.17309,37.51753 ]
+    },
+    "properties": {
+    "US Census":2010,
+    "County":"Texas County, Missouri",
+    "Location description":"2.7 miles northeast of Plato",
+    "Coordinates":"37.517534, -92.17309"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.47374,37.37354 ]
+    },
+    "properties": {
+    "US Census":2020,
+    "County":"Wright County, Missouri",
+    "Location description":"8.7 miles north-northeast of Hartville",
+    "Coordinates":"37.373548, -92.47374"
+    }
+  }
+]
+}
