@@ -5,7 +5,8 @@ function createMap(){
     //create the map
     var map = L.map('map', {
         center: [40, -99],
-        zoom: 4
+        zoom: 4//,
+        //layers: [aerial, streets]
     });
 
     //add Mapbox base tile layer
@@ -68,8 +69,8 @@ function createPropSymbols(data, map, attributes) {
         }
     }).addTo(map);
 
-    //check values
-    //console.log(data.features[0].properties)
+    // //check values
+    // console.log(data.features[0].properties)
 
 };
 
@@ -123,6 +124,14 @@ function pointToLayer(feature, latlng, attributes){
         title: feature.properties.City
     });
 
+    // //define layer
+    // var overlayMaps = {
+    //     "Cities": layer
+    // };
+
+    // //add layer control
+    // L.control.layers(overlayMaps).addTo(map);
+
     // //create panel content
     // var panelContent = "<p><b>City:</b> " + feature.properties.City + "</p>";
 
@@ -131,16 +140,27 @@ function pointToLayer(feature, latlng, attributes){
     // panelContent += "<b>Rank in " + rankYear + ": </b>" + feature.properties[attribute] + "</p>";
 
     //popup content *** MAY NEED TO REMOVE RANK IF TOO MESSY
-    var rankYear = attribute.split(" ")[0];
-    var popupContent = "<p><b>City: </b>" + feature.properties.City + ", " + feature.properties.State + "<p>" + "<b>" + rankYear + " Rank: </b>" + feature.properties[attribute] + "</p>";
+    // var rankYear = attribute.split(" ")[0];
+    // var popupContent = "<p><b>City: </b>" + feature.properties.City + ", " + feature.properties.State + "<p>" + "<b>" + rankYear + " Rank: </b>" + feature.properties[attribute] + "</p>";
 
     //bind the popup to the circle marker **** NOT NECESSARY IF MARKER NOT CREATED INITIALLY
-    if (feature.properties[attribute] > 0){
-        layer.bindPopup(popupContent, {
-            offset: new L.Point(0,-options.radius),
-            closeButton: false
-        })
-    };
+    // if (feature.properties[attribute] > 0){
+    //     layer.bindPopup(popupContent, {
+    //         offset: new L.Point(0,-options.radius),
+    //         closeButton: false
+    //     })
+    // };
+
+    //var props = layer.feature.properties;
+
+    //createPopup(attValue, attribute, layer, options.radius);
+
+    //create new popup
+    var popup = new Popup(feature.properties, attribute, layer, options.radius);
+
+    //add popup to circle marker
+    popup.bindToLayer();
+
     //event listeners to open popup on hover
     layer.on({
         mouseover: function(){
@@ -237,19 +257,62 @@ function updatePropSymbols(map, attribute){
             var radius = calcPropRadius(props[attribute]);
             layer.setRadius(radius);
             
-            //add city to popup content string
-            var popupContent = "<p><b>City:</b> " + props.City + ", " + props.State + "</p>";
+            //create popups
+            var popup = new Popup(props, attribute, layer, radius);
+            //add popup to circle marker
+            popup.bindToLayer();
+
+            // //add city to popup content string
+            // var popupContent = "<p><b>City:</b> " + props.City + ", " + props.State + "</p>";
             
-            //add formatted attribute to popup content string
-            var year = attribute.split(" ")[0];
-            popupContent += "<b>" + year + " Rank: " + "</b> " + props[attribute] + "</p>";
+            // //add formatted attribute to popup content string
+            // var year = attribute.split(" ")[0];
+            // popupContent += "<b>" + year + " Rank: " + "</b> " + props[attribute] + "</p>";
             
-            //replace the layer popup
-            layer.bindPopup(popupContent, {
-                offset: new L.Point(0,-radius)
-            });
+            // //replace the layer popup
+            // layer.bindPopup(popupContent, {
+            //     offset: new L.Point(0,-radius)
+            // });
+
+            //createPopup(props, attribute, layer, radius);
+
         };
     });
+};
+
+// //create and bind popup content to send to pointToLayer() and updatePropSymbols()
+// function createPopup(properties, attribute, layer, radius){
+//     //add city to popup content string
+//     var popupContent = "<p><b>City: </b>" + properties.City + ", " + properties.State;
+
+//     //add formatted attribute to popup content string
+//     var rankYear = attribute.split(" ")[0];
+//     popupContent += "<p><b>" + rankYear + " Rank: </b>" + properties[attribute] + "</p>";
+
+//     //replace the layer popup
+//     if (properties[attribute] > 0){
+//         layer.bindPopup(popupContent, {
+//             offset: new L.Point(0,-radius),
+//             closeButton: false
+//         })
+//     };
+// };
+
+
+//create and bind popup content to send to pointToLayer() and updatePropSymbols()
+function Popup(properties, attribute, layer, radius){
+    this.properties = properties;
+    this.attribute = attribute;
+    this.layer = layer;
+    this.year = attribute.split(" ")[1];
+    this.rank = this.properties[attribute];
+    this.content = "<b>City: </b>" + this.properties.City + ", " + this.properties.State;"<p><b>" + this.year + " Rank: </b>" + this.rank + "</p>";
+
+    this.bindToLayer = function(){
+        this.layer.bindPopup(this.content, {
+            offset: new L.Point(0,-radius)
+        });
+    };
 };
 
 $(document).ready(createMap);
