@@ -6,26 +6,91 @@
 		<title>The Growth of a Nation</title>
 
 		<!--put your external stylesheet links here-->
-		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="lib/leaflet/leaflet.css">
 		<link rel="stylesheet" href="lib/jquery-ui-1.12.1/jquery-ui.css">
 		<link rel="stylesheet" href="lib/jquery-ui-1.12.1/jquery-ui.structure.css">
 		<link rel="stylesheet" href="lib/jquery-ui-1.12.1/jquery-ui.theme.css">
+		<link rel="stylesheet" href="css/style.css">
 		<!--[if IE<9]>
 			<link rel="stylesheet" href="css/style.ie.css">
 		<![endif]-->
 	</head>
 
 	<body>
+		<h1>The Growth of a Nation</h1>
+
+		<h3>Introduction</h3>
+		The United States Census Bureau's (USCB) first statistical atlas was produced
+		in 1874 to mark the nation's upcoming centennial and to show the 
+		progress of the nation over the previous century. The atlas represented
+		the country's first use of comparative statistics at a national level and
+		provided a means of quickly interpreting complex demographic phenomena
+		at a national level.
+
+		<p>USCB produced statistical atlases for the next several 
+		decades, but by the turn of the 20th century, interest in producing a
+		national atlas had declined, and despite monumental shifts in the nation's 
+		population in the following decades, no National Statistical atlas was 
+		produced between 1930 and 2000.<sup>1</sup>
+		 
+		
+		<h3>Ranking the Population of Urban Areas</h3>
+		The following map uses data compiled by USCB to analyze the growth of cities
+		in the coterminous 48 states between 1790 and 2020<sup>2/4</sup>. Instead of representing
+		urban populations using total counts, the map normalizes city population
+		changes against national population changes by using the relative population 
+		rank to track the rise in westward migration.
+
+		<h3>How to Use the Map</h3>
+		<h4>Controls</h4>
+		The map has several controls that facilitate analysis of the data<sup>3</sup>. In the
+		top-left and top-right corners of the map window are controls for zooming
+		the map window to examine the data at different scales as well as a layer
+		control for switching the basemap and activating the city rank overlay 
+		layer. In the bottom-right corner of the map window is the sequence 
+		control, which allows for cycling through 230 years of census records 
+		to visualize the city ranking data.<br>
+		
+		<h4>Analysis</h4>
+		The legend in the bottom-left corner shows a readout of the year being 
+		displayed as well as the city rank symbol legend. To view the name and
+		rank of a city shown on the map, hover over the city's circle symbol
+		to activate a popup. The city will be highlighted in yellow.
+
+		
+		</p>
+		</div>
 		<!--content-->
 		<div id="map"></div>
-		<div id="panel"></div>
-
+		<div id="legend-control-container"></div>
+		<!-- <div id="panel"></div> -->
+		<h3>Data Sources</h3>
+		<div id = "citation">
+			1. "Statistical Atlases". US Census Bureau. 
+				<a href="https://www.census.gov/history/www/programs/geography/statistical_atlases.html">
+				census.gov</a> Retrieved 9 February 2020.<br>
+				<br>
+			2. "Population of the 100 Largest Cities and Other Urban Places in the
+				United States: 1790 to 1990". US Census Bureau. 
+				<a href="https://www.census.gov/population/www/documentation/twps0027/twps0027.html#intro">
+				census.gov</a> Retrieved 9 February 2020.<br>
+				<br>
+			3. "Rank by Population of the 100 Largest Urban Places, 
+				Listed Alphabetically by State: 1790-1990". US Census Bureau. 
+				<a href="https://www.census.gov/population/www/documentation/twps0027/tab01.txt">
+				census.gov</a> Retrieved 9 February 2020.<br>
+				<br>
+			4. "Annual Estimates of the Resident Population for Incorporated 
+				Places of 50,000 or More, Ranked by July 1, 2018 Population: April 1, 2010 
+				to July 1, 2018 - United States -- Places of 50,000+ Population: 2018 
+				Population Estimates". US Census Bureau. <a href="https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk">
+				census.gov</a> Retrieved 9 February 2020.<br>
+		</div>
 		<!--script links-->
 		<script type="text/javascript" src="lib/jquery-3.4.1.js"></script>
 		<script type="text/javascript" src="lib/jquery-ui-1.12.1/jquery-ui.js"></script>
 		<script type="text/javascript" src="lib/leaflet/leaflet-src.js"></script>
-		<script type="text/javascript" src="js/main_v6.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 
 	</body>
 </html>

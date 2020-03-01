@@ -1,31 +1,92 @@
 /* Stylesheet by Todd Burciaga, 2020 */
 
-#map { height: 600px;
-    width: 60%;
-    display: inline-block;
- }
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+}
 
-#panel {
-    width: 26%;
-    padding: 20px;
-    display: inline-block;
-    vertical-align: top;
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    line-height: 42px;
+    color: rgb(80, 80, 80)
 }
 
-.range-slider {
-    width: 50%;
+#citation {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(128, 128, 128)
 }
 
-#forward {
-    float: right;
-}
 
-#reverse {
-    float: left;
+/* Map Sizing and Content Styling */
+#map { height: 450px;
+    width: 90%;
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border: solid gray 1px;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .leaflet-popup-content p {
     margin: 0.2em 0;
+}
+
+/* Sequence Control and Legend Stuff */
+.range-slider {
+    width: 100%;
+}
+
+.sequence-control-container {
+    width: 200px;
+    height: 15px;
+    background: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 15px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border: solid gray 1px;
+    border-radius: 5px
+}
+
+
+/* Legend Stuff */
+.legend, .legend-control-container, #temporal-legend {
+    padding: 6px 10px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#min-text, #mean-text, #max-text {
+    color: gray;
+}
+
+#legendTitle {
+    text-align: center;
+    margin-bottom: 15px;
+	font-variant: small-caps;
+}
+    
+.symbolsContainer {
+	float: left;
+	margin-left: 50px;
+}
+
+.legendCircle {
+    border-radius:50%; 
+    border: 1px solid #537898; 
+    background: rgba(113, 133, 152, .6);
+    display: inline-block;
+}
+
+.legendValue {
+	position: absolute;
+	right: 8px;
 }
