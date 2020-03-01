@@ -1,4 +1,8 @@
-/* JavaScript by Todd Burciaga, 2020 */
+/* JavaScript by Todd Burciaga, 2020. 
+Code and approach modified from lab exercises and
+stackovervlow contributions at 
+https://stackoverflow.com/questions/16148598/leaflet-update-geojson-filter
+*/
 
 /*$(document).ready(function() {*/
 
@@ -72,9 +76,6 @@
 
         //add layer controls
         L.control.layers(baseMaps, overlayMaps).addTo(map);
-
-        //add scale bar
-        L.control.scale().addTo(map);
 
         //call getData function
         getData(map);
@@ -344,6 +345,9 @@
     
         map.addControl(new LegendControl());
 
+        //add scale bar
+        L.control.scale().addTo(map);
+
         updateLegend(map, attributes[0]);
     };
 
@@ -408,7 +412,7 @@
         };
     };
 
-/////////////////////////////////////////////////////////////////////////////
+/* Mean Center of US Population Data */
 
     // //retrieve center of population data
     // function getCenterPopData(map){
@@ -484,13 +488,8 @@
 
 $(document).ready(createMap);
 
+/* testing */
 // console.log(data.features[0])
 // console.log(attributes)
 // console.log(data.features[0].properties["1790 Rank"])
-
 // console.log(response, attributes)
-
-/* code and approach modified from lab exercises and
-stackovervlow contributions at 
-https://stackoverflow.com/questions/16148598/leaflet-update-geojson-filter
-*/
